@@ -28,7 +28,7 @@ class card(object):
         # Card is a dictionary: {word:,defs:,examples:,audio:}
         self.cardData = {'word':None, 'defs':None,
                          'examples':None, 'audio':None}
-        self.outputHeader = "Word, Definition, Example, Audio"
+        self.outputHeader = "#Word   Definition  Example Audio"
         self.foundWord = False
 
     def fetch(self, word, wordnikConn):
